@@ -13,6 +13,17 @@ const styles = StyleSheet.create({
         borderRadius : 10,
         marginBottom : 20,
     },
+    imageContainer: {
+        position: 'absolute',
+        bottom: 0,
+        right: 0,
+        marginRight: 20,
+        marginBottom: 20,
+    },
+    image: {
+        width: 50,
+        height: 50,
+    },
 })
 
 export default styles;

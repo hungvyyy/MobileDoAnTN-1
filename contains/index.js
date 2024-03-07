@@ -1,6 +1,7 @@
-import { COLORS } from './theme'
+import { COLORS , FONTSIZE } from './theme'
+import { IMAGES } from './images'
 
 
 export {
-    COLORS
+    COLORS , FONTSIZE , IMAGES
 }

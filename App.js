@@ -6,10 +6,12 @@ import MyTabsWorker from './navigation/worker';
 import MyTabsProduction from './navigation/production_manager';
 import MyTabsDriver from './navigation/driver';
 
+import AuthStackScreen from './navigation/Auth'
+
 export default function App() {
   return (
     <NavigationContainer>
-      <MyTabsWorker />
+      <AuthStackScreen />
     </NavigationContainer>
   );
 }

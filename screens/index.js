@@ -1,5 +1,3 @@
-
-
 import ProductScreen from "./Product";
 import SuppliesScreen from "./Supplies";
 import CategoryProductScreen from "./Category_Product";
@@ -13,8 +11,11 @@ import CategoryManufactureScreen from "./Category_Manufacture";
 import CategoryOrderStatusScreen from "./Category_OrderStatus";
 import OrderStatusScreen from "./OrderStatus";
 
-import DriverDetailsScreen from "./Driver_Details"
-import DriverchedulesScreen from "./Driver_Schedules"
+import DriverDetailsScreen from "./Driver_Details";
+import DriverchedulesScreen from "./Driver_Schedules";
+
+import LoginScreen from "./Login";
+import SignUpScreen from "./SignUp";
 
 export {
     ProductScreen,
@@ -29,4 +30,6 @@ export {
     OrderStatusScreen,
     DriverDetailsScreen,
     DriverchedulesScreen,
+    LoginScreen,
+    SignUpScreen,
 }
