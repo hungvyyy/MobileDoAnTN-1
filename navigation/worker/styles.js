@@ -1,18 +1,12 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native';
 import { COLORS } from '../../contains';
+
 const styles = StyleSheet.create({
     container : {
         flex : 1,
-        justifyContent : 'center',
-        alignItems: 'center'
+        backgroundColor :  COLORS.room,
     },
-    box : {
-        paddingHorizontal : 10,
-        paddingVertical : 10,
-        backgroundColor : '#0EAF89',
-        borderRadius : 10,
-        marginBottom : 20,
-    },
+   
     roomContainer : {
         width : '50%',
         borderRadius : 10,
@@ -52,7 +46,16 @@ const styles = StyleSheet.create({
         shadowOpacity: 0.25,
         shadowRadius: 3.84,
     }
+    // boxImg : {
+    //     width : 90,
+    //     height : 90,
+    //     borderRadius : 40,
+    //     marginBottom : 10
+    // },
+    // img : {
+    //     width : '100%',
+    //     height : '100%'
+    // }
 })
-
 
 export default styles;
