@@ -13,6 +13,26 @@ const styles = StyleSheet.create({
         borderRadius : 10,
         marginBottom : 20,
     },
+    list:{
+        marginTop:-300,
+      },
+    orderContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        padding: 10,
+        borderBottomWidth: 1,
+        borderBottomColor: '#ccc',
+      },
+      orderDetails: {
+    
+      },
+      orderText: {
+        marginBottom: 5,
+      },
+      detailsButton: {
+        color: 'blue',
+      },
 })
 
 export default styles;

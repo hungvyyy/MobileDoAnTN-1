@@ -11,7 +11,7 @@ import AuthStackScreen from './navigation/Auth'
 export default function App() {
   return (
     <NavigationContainer>
-      <MyTabsWorker />
+      <MyTabsDriver />
     </NavigationContainer>
   );
 }
