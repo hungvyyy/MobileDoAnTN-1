@@ -2,9 +2,10 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     container : {
-        flex : 1,
-        justifyContent : 'center',
-        alignItems: 'center'
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      marginBottom: 10,
     },
     box : {
         paddingHorizontal : 10,
@@ -32,6 +33,12 @@ const styles = StyleSheet.create({
       },
       detailsButton: {
         color: 'blue',
+      },
+      orderDetails: {
+        flex: 1,
+      },
+      buttonContainer: {
+        marginLeft: 10,
       },
 })
 
